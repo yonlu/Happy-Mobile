@@ -1,23 +1,25 @@
 {
   "expo": {
-    "name": "mobile",
+    "name": "Happy",
     "slug": "mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#2AB5D1"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "org.sallada.happy"
+    },
+    "android": {
+      "package": "org.sallada.happy"
     },
     "web": {
       "favicon": "./assets/favicon.png"
